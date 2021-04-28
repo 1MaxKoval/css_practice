@@ -1,0 +1,18 @@
+html {
+  font-family: sans-serif;
+}
+
+p {
+  background-image: linear-gradient(135deg, rgb(0,0,0,0), rgb(0,0,0,0.2));
+  background-color: red;
+  box-shadow: inset -4px -4px 5px 0px black, inset 6px 5px 5px 0px white, 6px 8px 5px 0px black;
+  /* Calculation follows from root element having font-size of 16px */
+  font-size: 1.125rem;
+  color: red;
+  text-shadow: 1px 1px 2px black;
+  border-radius: 10px;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  border: 1px solid rgb(145, 9, 9);
+}
