@@ -1,0 +1,153 @@
+/* Font imports */
+@font-face {
+    font-family: 'contraregular';
+    src: url('fonts/used_fonts/contra-webfont.woff2') format('woff2'),
+         url('fonts/used_fonts/contra-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'heading_font';
+    src: url('fonts/used_fonts/andada-bold-webfont.woff2') format('woff2'),
+         url('fonts/used_fonts/andada-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+
+/* General */
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'contraregular';
+  line-height: 1.5;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+h1,
+h2 {
+  font-family: 'heading_font';
+} 
+
+h1 {
+  word-spacing: 4px;
+  text-align: center;
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+section > h2 + p {
+  text-indent: 20px;
+}
+
+/* Links */
+
+a {
+  text-decoration: underline;
+}
+
+a:link {
+  color: rgb(138, 1, 1);
+}
+
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  background-color: rgb(255, 122, 122);
+}
+
+a[href*="http"] {
+  background: url("icons/external-link-52.png") no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
+
+/* Lists */
+
+ul {
+  list-style: square;
+}
+
+/* Navigation menu */
+nav ul {
+  list-style: none;
+}
+
+
+nav li {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+nav li:nth-child(1) {
+  margin-top: 2em;
+}
+
+
+
+
