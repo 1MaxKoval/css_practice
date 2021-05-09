@@ -1,0 +1,52 @@
+
+/* Content positioning and alignment */
+
+main {
+    margin: 0 auto;
+    margin-top: 20vh;
+    width: 40em;
+}
+
+/* Reset ul */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul {
+    margin-left: 5%;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+h1,
+header p {
+    text-align: center;
+}
+
+input {
+    display: block;
+}
+
+/* Fonts */
+
+body {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+header p {
+    font-size: 3em;
+}
+
+ul {
+    font-size: 2em;
+}
+
+/* General Design */
