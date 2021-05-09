@@ -59,3 +59,17 @@ ul {
 }
 
 /* General Design */
+
+/* Media queries */
+
+@media screen and (max-width: 520px) {
+    main {
+        width: 20rem;
+        padding: 0 5%;
+    }
+
+    ul {
+        margin-left: 0;
+    }
+
+}
