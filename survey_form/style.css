@@ -1,11 +1,11 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
 /* Content positioning and alignment */
-
 main {
     margin: 0 auto;
     margin-top: 5vh;
     margin-bottom: 5vh;
-    width: 30rem;
 }
 
 /* Reset ul */
@@ -16,11 +16,11 @@ ul {
 }
 
 ul {
-    margin-left: 5%;
+    padding: 0 5%;
 }
 
 form li + li {
-    margin-top: 1em;
+    margin-top: 1rem;
 }
 
 h1,
@@ -32,7 +32,7 @@ header p {
 .fill_row {
     display: block;
     width: 100%;
-    margin-top: 1em;
+    margin-top: 1rem;
 }
 
 form li div {
@@ -40,10 +40,12 @@ form li div {
     margin-bottom: 0.5rem;
 }
 
+
 /* Fonts */
 
 body {
     font-size: 10px;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1 {
@@ -58,18 +60,38 @@ ul {
     font-size: 1.2rem;
 }
 
+button {
+    margin-bottom: 1rem;
+}
+
 /* General Design */
+
+form {
+    border: 1px solid black;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+
 
 /* Media queries */
 
-@media screen and (max-width: 520px) {
-    main {
-        width: 20rem;
-        padding: 0 5%;
+@media screen and (max-width: 500px) {
+    /* Positioning */
+    .form {
+        width: 300px;
+    }
+
+    /* Fonts */
+    h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
     }
 
     ul {
-        margin-left: 0;
+        font-size: 0.8rem;
     }
-
 }
