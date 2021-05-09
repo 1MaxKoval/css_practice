@@ -1,0 +1,73 @@
+/* Generic setup */
+html {
+    font-size: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Positioning and flow */
+
+header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    float: center;
+}
+
+#img-div {
+    max-width: 80rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Text */
+
+header,
+footer {
+    font-size: 2rem;
+}
+header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    float: center;
+}
+
+#img-div {
+    max-width: 80rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+/* Text */
+
+header,
+footer,
+main {
+    font-size: 2rem;
+}
+
