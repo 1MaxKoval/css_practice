@@ -3,8 +3,9 @@
 
 main {
     margin: 0 auto;
-    margin-top: 20vh;
-    width: 40em;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 30rem;
 }
 
 /* Reset ul */
@@ -27,8 +28,16 @@ header p {
     text-align: center;
 }
 
-input {
+/* Make a field to fill up an entire row */
+.fill_row {
     display: block;
+    width: 100%;
+    margin-top: 1em;
+}
+
+form li div {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 
 /* Fonts */
@@ -38,15 +47,15 @@ body {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 3rem;
 }
 
 header p {
-    font-size: 3em;
+    font-size: 1.5rem;
 }
 
 ul {
-    font-size: 2em;
+    font-size: 1.2rem;
 }
 
 /* General Design */

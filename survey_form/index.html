@@ -12,29 +12,55 @@
                 <ul>
                     <li>
                         <label for="name" id="name-label">Name</label>
-                        <input type="text" id="name" placeholder="eg. Adrian">
+                        <input class="fill_row" type="text" id="name" placeholder="eg. Adrian">
                     </li>
                     <li>
                         <label for="email" id="email-label">Email</label>
-                        <input type="email" id="email" placeholder="eg. example@gmail.com">
+                        <input class="fill_row" type="email" id="email" placeholder="eg. example@gmail.com">
                     </li>
                     <li>
                         <label for="number" id="number-label">Age</label>
-                        <input type="number" id="number" max="99" min="18" placeholder="eg. 18">
+                        <input class="fill_row" type="number" id="number" max="99" min="18" placeholder="eg. 18">
                     </li>
                     <li>
-                    <select id="dropdown"></select>
-                    <input type="radio" value="Yes" name="opinion">
-                    <input type="radio" value="No" name="opinion">
-                    <input type="radio" value="Maybe" name="opinion">
-                    <input type="checkbox" value="No" name="front-end">
-                    <input type="checkbox" value="Maybe" name="back-end">
+                    <p>What food do you like most?</p>
+                    <select id="dropdown" class="fill_row" autocomplete="off">
+                        <option value="" disabled selected>Select food</option>
+                        <option value="potato2">Potato</option>
+                        <option value="potato3">Potato</option>
+                    </select>
+                    <li> 
+                        <p>Would you  reccommend freeCodeCamp to a friend?</p>
+                        <div>
+                            <input type="radio" value="Yes" id="opinion-yes" name="opinion">
+                            <label for="opinion-yes">Yes</label>
+                        </div>
+                        <div>
+                            <input type="radio" value="No" id="opinion-no" name="opinion">
+                            <label for="opinion-no">No</label>
+                        </div>
+                        <div>
+                            <input type="radio" value="Maybe" id="opinion-maybe" name="opinion">
+                            <label for="opinion-maybe">Maybe</label>
+                        </div>
                     </li>
                     <li>
-                    <textarea name="additional comments"></textarea>
+                        <p>What would you like to see improved?</p>
+                        <div>
+                            <input type="checkbox" value="front-end" name="front-end" id="check-front-end">
+                            <label for="check-front-end">Front-end guides</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" value="back-end" name="back-end" id="check-back-end">
+                            <label for="check-front-end">Back-end guides</label>
+                        </div>
                     </li>
                     <li>
-                    <button id="submit" type="submit">Submit!</button>
+                        <p>Any comments or suggestions?</p>
+                        <textarea name="additional comments" class="fill_row"></textarea>
+                    </li>
+                    <li>
+                        <button id="submit" type="submit" class="fill_row">Submit!</button>
                     </li>
                 </ul>
             </form> 
