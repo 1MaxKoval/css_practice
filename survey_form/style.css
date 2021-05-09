@@ -1,5 +1,6 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap');
 
 /* Content positioning and alignment */
 main {
@@ -40,12 +41,26 @@ form li div {
     margin-bottom: 0.5rem;
 }
 
+select {
+    height: 2rem;
+}
+
+button {
+    margin-bottom: 1rem;
+}
 
 /* Fonts */
+
+input,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
 
 body {
     font-size: 10px;
     font-family: 'Titillium Web', sans-serif;
+    color: white;
 }
 
 h1 {
@@ -53,6 +68,8 @@ h1 {
 }
 
 header p {
+    font-family: 'Titillium Web', sans-serif;
+    font-style: italic;
     font-size: 1.5rem;
 }
 
@@ -61,17 +78,41 @@ ul {
 }
 
 button {
-    margin-bottom: 1rem;
+    font-family: inherit;
+    font-size: 100%;
 }
 
 /* General Design */
 
 form {
     border: 1px solid black;
+    border-radius: 10px;
     margin: 0 auto;
     max-width: 700px;
+    background-color: rgba(0, 0, 0, 0.87);
 }
 
+input,
+select,
+textarea {
+    border-radius: 5px;
+}
+
+textarea {
+    overflow: auto
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    background-color: rgb(3, 194, 3);
+    border: 0;
+    border-radius: 5px;
+}
 
 
 /* Media queries */
