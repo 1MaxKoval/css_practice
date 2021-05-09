@@ -112,6 +112,7 @@ button {
     background-color: rgb(3, 194, 3);
     border: 0;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 
