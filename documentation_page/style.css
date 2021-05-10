@@ -1,9 +1,41 @@
 /* General  */
+body {
+    margin: 0;
+}
+
 #total-container {
     font-size: 10px;
 }
 
+#navbar ul,
+#navbar li {
+    margin: 0;
+    padding: 0;
+}
+
 /* Navbar */
+
+.nav-link,
+#navbar header {
+    padding-left: 1rem;
+}
+
+.nav-link {
+    display: block;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid black;
+    font-size: 1.2rem;
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+#navbar header {
+    border-bottom: 1px solid black;
+}
+
 #navbar {
     position: fixed;
     padding-top: 1rem;
@@ -19,5 +51,5 @@
 /* Main document */
 
 #main-doc {
-    margin-left: 270px;
+    margin-left: 290px;
 }
