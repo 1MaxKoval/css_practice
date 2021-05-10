@@ -34,6 +34,7 @@ body {
     margin-right: auto;
 }
 
+
 #nav-bar {
     display: flex;
     margin-left: auto;
@@ -80,6 +81,24 @@ form ul li {
     margin-left: 2rem;
 }
 
+#how-it-works {
+    width: 600px;
+}
+
+#frame-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+#video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 
 
 /* Decorative CSS */
@@ -150,4 +169,56 @@ nav {
 
 h3 {
     font-size: 1.8rem;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 900px) {
+
+    #grid-cards {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .card {
+        width: auto;
+        max-width: 70vw;
+    }
+
+
+}
+
+@media screen and (max-width: 650px) {
+
+    #header {
+        padding-bottom: 0;
+    }
+
+    #how-it-works {
+        width: 80%;
+    }
+
+    nav ul {
+        height: 100%;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        height: 33.33333%;
+    }
+    
+    .nav-link {
+        all: initial;
+        color: white;
+        display: block;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        text-align: center;
+    }
+
+
+
+
 }
