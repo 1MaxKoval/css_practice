@@ -1,0 +1,23 @@
+/* General  */
+#total-container {
+    font-size: 10px;
+}
+
+/* Navbar */
+#navbar {
+    position: fixed;
+    padding-top: 1rem;
+    top: 0;
+    width: 270px; 
+    height: 100vh;
+}
+
+#navbar > header {
+    font-size: 2rem;
+}
+
+/* Main document */
+
+#main-doc {
+    margin-left: 270px;
+}
