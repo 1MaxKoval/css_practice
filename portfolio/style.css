@@ -47,6 +47,19 @@ body {
     margin-right: 1rem;
 } 
 
+/* Styling left About button */
+
+.nav-but:link,
+.nav-but:visited {
+    text-decoration: none;
+    color: initial;
+} 
+
+.nav-but:active {
+    background-color: #E67212;
+}
+
+
 /* Welcome section */
 #welcome-section h1 {
     display: block;
@@ -85,6 +98,14 @@ body {
     font-size: 3rem;
 }
 
+.social-link:link,
+.social-link:visited {
+    color: white;
+}
+
+.social-link:active {
+    color: yellow;
+}
 
 
 
