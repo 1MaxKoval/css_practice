@@ -21,10 +21,11 @@ body {
 }
 
 .nav-link {
+    text-decoration: none;
     display: block;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
-    border-bottom: 1px solid black;
+    border-top: 1px solid black;
     font-size: 1.2rem;
 }
 
@@ -33,7 +34,7 @@ body {
 }
 
 #navbar header {
-    border-bottom: 1px solid black;
+    padding-bottom: 0.5rem;
 }
 
 #navbar {
@@ -52,4 +53,36 @@ body {
 
 #main-doc {
     margin-left: 290px;
+    margin-right: 4rem;
+}
+
+.main-section {
+    font-size: 1.2rem;
+}
+
+.main-section:nth-child(1) > header {
+    margin-top: 1rem;
+}
+
+/* Each section */
+
+.main-section header {
+    font-size: 1.5rem;
+}
+
+.main-section:nth-child(n+2) > header {
+    margin-top: 2rem;
+}
+
+.main-section > div {
+    padding-left: 2rem;
+}
+
+.main-section > div > ul > li:nth-child(n+2) {
+    margin-top: 1rem;
+}
+
+.main-section > div > code {
+    font-size: 1rem;
+    display: block;
 }
