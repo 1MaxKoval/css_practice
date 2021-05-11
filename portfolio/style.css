@@ -1,0 +1,38 @@
+/* General */
+body {
+    font-size: 10px;
+}
+
+/* Navbar */
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 97vw;
+    margin: 0 2vw;
+}
+
+.nav-but {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 1rem 0.5rem;
+}
+
+.nav-but:nth-child(1) {
+    background-color: rgb(39, 253, 235);
+    margin-right: auto;
+} 
+
+.nav-but:nth-child(3) {
+    margin-left: auto;
+} 
+
+
+
+
+
