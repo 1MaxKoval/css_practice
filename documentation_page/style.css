@@ -52,6 +52,8 @@ body {
 /* Main document */
 
 #main-doc {
+    border-left: 0.5rem solid grey;
+    padding-left: 1rem;
     margin-left: 290px;
     margin-right: 4rem;
 }
@@ -85,4 +87,39 @@ body {
 .main-section > div > code {
     font-size: 1rem;
     display: block;
+    margin: 1rem 0;
+    background-color: rgb(228, 227, 227);
+}
+ 
+/* Media queries */
+
+@media screen and (max-width: 950px) {
+
+    /* Navbar */
+
+    #navbar {
+        position: static;
+        height: initial;
+        width: initial;
+    }
+
+    #navbar header {
+        text-align: center;
+    }
+
+    #navbar ul {
+        border: 3px solid black;
+        height: 131px;
+        overflow-y: auto;
+    }
+
+    /* Main section */
+
+    #main-doc {
+        margin-left: initial;
+        border-left: none;
+    }
+
+
+
 }
