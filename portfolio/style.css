@@ -139,12 +139,12 @@ body {
 }
 
 /* Project card */
-.project-title {
+.project-tile {
     background-color: white;
     border-radius: 5px;
 }
 
-.project-title h3 {
+.project-tile h3 {
     font-size: 1.2rem;
     color: black;
     text-align: center;
